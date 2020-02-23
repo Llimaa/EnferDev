@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Commands\CreateHospitalCommand.cs~RF6f23511.TMP" />
+    <None Remove="Handlers\HospitalHandler.cs~RF8e66da6.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
